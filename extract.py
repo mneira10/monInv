@@ -24,6 +24,7 @@ def features(df, num_features):
     feature_dict['poly4_t3'] = p4_params[1]
     feature_dict['poly4_t2'] = p4_params[2]
     feature_dict['poly4_t1'] = p4_params[3]
+    
     # Curve statistics measurements
     feature_dict['skew'] = measurements.skew(df.FLUX)
     feature_dict['kurtosis'] = measurements.kurtosis(df.FLUX)

@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV, StratifiedKFold  # , cross_val
 from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall_score, f1_score, precision_recall_fscore_support, confusion_matrix  # , classification_report
 
 
-RESULTS_PATH = '../results/'
+RESULTS_PATH = './results/'
 
 
 def svc():
